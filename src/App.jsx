@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import SignIn from "./login/SignIn/SignIn.jsx";
-import SignUp from "./login/SignUp.jsx";
+import SignUp from "./login/SignUp/SignUp.jsx";
 import ForgetPassword from "./login/ForPass.jsx";
 
 function App() {

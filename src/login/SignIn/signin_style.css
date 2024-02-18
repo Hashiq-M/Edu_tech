@@ -35,18 +35,18 @@ body {
 
   
   
-  form {
+  .form1 {
     margin-bottom: 10px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
   
-  label {
+  .label1 {
     display: block;
     margin-bottom: 5px;
     color: #555;
   }
   
-  input {
+  .input1 {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;

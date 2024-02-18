@@ -23,14 +23,25 @@ function SignIn() {
         </ul>
       </div>
       <h1 className="title">Login</h1>
-      <form>
-        <label htmlFor="emailup">Email:</label>
+      <form className="form1">
+        <label className="label1" htmlFor="emailup">
+          Email:
+        </label>
         <br />
-        <input type="text" id="emailup"></input>
+        <input className="input1" type="text" id="emailup" required></input>
         <br />
-        <label htmlFor="passwordup">Password:</label>
+        <label className="label1" htmlFor="passwordup">
+          Password:
+        </label>
         <br />
-        <input type="password" id="passwordup"></input>
+        <input
+          className="input1"
+          type="password"
+          id="passwordup"
+          required
+          pattern=".[0-9 A-Z a-z]{6,10}"
+          title="mixed with alphabet and number with limit 6-10"
+        ></input>
         <br />
       </form>
       <Link to="/forgetpassword">Forget Password</Link>
